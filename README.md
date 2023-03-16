@@ -6,7 +6,7 @@ Ensure query names are relevant to the data it contains.
 
 Columns must contain appropriate names.
 
-There should not be any empty fields and errors, go through every column to confirm. Check 'Column Quality', 'Column Distribution' and 'Column Profile' (in Power BI) to view if these issues exist.
+There should not be any empty fields and errors, go through every column to confirm. Check 'Column Quality', 'Column Distribution' and 'Column Profile' (in Power BI) to view if these issues exist. All columns should have a valid number of 100%
 
 Seaerch through each column, through filters, to ensure data is consistent.
 
