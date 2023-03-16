@@ -6,7 +6,7 @@ Ensure query names are relevant to the data it contains.
 
 Columns must contain appropriate names.
 
-If the queries for different data is structured the same and has related data, these queries can be combined into one through appending. Similar query structures can be determined if the column numbers are the same and each column name is identical.
+If the queries for different data is structured the same and has related data, these queries can be combined into one through appending. Similar query structures can be determined if the column numbers are the same and each column name is identical. Upon merging the queries select a filter for one of the columns to ensure all queries were merged correctly. If they were not, this could be due to different formats for a column.
 
 There should not be any empty fields and errors, go through every column to confirm. Check 'Column Quality', 'Column Distribution' and 'Column Profile' (in Power BI) to view if these issues exist. All columns should have a valid number of 100%
 
