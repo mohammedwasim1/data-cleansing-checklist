@@ -12,7 +12,7 @@ If the queries for different data is structured the same and has related data, t
 
 There should not be any empty fields and errors, go through every column to confirm. Check 'Column Quality', 'Column Distribution' and 'Column Profile' (in Power BI) to view if these issues exist. All columns should have a valid number of 100%
 
-Seaerch through each column, through filters, to ensure data is consistent.
+Seaerch through each column, through filters, to ensure data is consistent. If there are inconsistencies with the data, this could be due to the source data or Power BI. First check through the source data to identify if the problem is occuring there. If an error is identified you have to first understand the reason, then replace the values within Power BI as opposed to the source data.
 
 ## **Contributing**
 This checklist is a work in progress and may not cover all data cleaning scenarios. If you would like to contribute to this checklist, feel free to fork this repository and submit a pull request with your changes.
