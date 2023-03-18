@@ -16,5 +16,7 @@ Seaerch through each column, through filters, to ensure data is consistent. If t
 
 Exlude irrelevant columns, that are unnceccsary to the visualisation process. This is for speed and efficiency purposes.
 
+Ensure dates are formatted correctly based on the country that the data will be displayed to. If the dates are in a different country format, in Power BI, change the locale to the correct one.
+
 ## **Contributing**
 This checklist is a work in progress and may not cover all data cleaning scenarios. If you would like to contribute to this checklist, feel free to fork this repository and submit a pull request with your changes.
