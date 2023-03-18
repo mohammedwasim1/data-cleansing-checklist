@@ -12,11 +12,13 @@ If the queries for different data are structured the same and have related data 
 
 There should not be any empty fields and errors, go through every column to confirm. Check 'Column Quality', 'Column Distribution' and 'Column Profile' (in Power BI) to view if these issues exist. All columns should have a valid number of 100%
 
-Seaerch through each column, through filters, to ensure data is consistent. If there are inconsistencies with the data, this could be due to the source data or Power BI. First check through the source data to identify if the problem is occuring there. If an error is identified you have to first understand the reason, then replace the values within Power BI as opposed to the source data.
+Search through each column, using filters, to ensure data is consistent. If there are inconsistencies with the data, this could be due to the source data or Power BI. First check through the source data to identify if the problem is occuring there. If an error is identified you have to first understand the reason, then replace the values within Power BI as opposed to the source data.
 
 Exlude irrelevant columns, that are unnceccsary to the visualisation process. This is for speed and efficiency purposes.
 
 Ensure dates are formatted correctly based on the country that the data will be displayed to. If the dates are in a different country format, in Power BI, change the locale to the correct one. Verify the locale through either: checking the settings or creating an additional column for the month of each date.
 
+In Power BI, each column should have the correct data type. This can be changed manually or through the 'Detect Data type' button under the 'Transform' ribbon. 
+
 ## **Contributing**
-This checklist is a work in progress and may not cover all data cleaning scenarios. If you would like to contribute to this checklist, feel free to fork this repository and submit a pull request with your changes.
+This checklist is a work in progress and may not cover all data cleaning scenarios. Please note: The properties a dataset, referenced in the checklist (above), will typically be required across all systems. However, methods to cleanse the data will often be in reference to the Business Intelligence tool: Power BI. These cleaning methods can be performed in other tools/software. If you would like to contribute to this checklist, feel free to fork this repository and submit a pull request with your changes.
