@@ -20,5 +20,7 @@ Ensure dates are formatted correctly based on the country that the data will be 
 
 In Power BI, each column should have the correct data type. This can be changed manually or through the 'Detect Data type' button under the 'Transform' ribbon. 
 
+If there are several decimal values for each column and the data is related for example prices, the values in these columns should all be rounded to the same decimal place.
+
 ## **Contributing**
 This checklist is a work in progress and may not cover all data cleaning scenarios. Please note: The properties a dataset, referenced in the checklist (above), will typically be required across all systems. However, methods to cleanse the data will often be in reference to the Business Intelligence tool: Power BI. These cleaning methods can be performed in other tools/software. If you would like to contribute to this checklist, feel free to fork this repository and submit a pull request with your changes.
