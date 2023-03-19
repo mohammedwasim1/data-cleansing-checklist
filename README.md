@@ -18,7 +18,7 @@ Exlude irrelevant columns, that are unnceccsary to the visualisation process. Th
 
 Ensure dates are formatted correctly based on the country that the data will be displayed to. If the dates are in a different country format, in Power BI, change the locale to the correct one. Verify the locale through either: checking the settings or creating an additional column for the month of each date.
 
-In Power BI, each column should have the correct data type. This can be changed manually or through the 'Detect Data type' button under the 'Transform' ribbon. 
+In Power BI, each column should have the correct data type. This can be changed manually or through the 'Detect Data type' button under the 'Transform' ribbon. In Power BI, the altered data type will need to be applied to the whole dataset. This can be done by clicking 'Apply' under the 'Home' tab. Errors may be picked up as a result of this. These will need to be troublehsooted, depending on the error.
 
 If there are several decimal values for each column and the data is related for example prices, the values in these columns should all be rounded to the same decimal place.
 
