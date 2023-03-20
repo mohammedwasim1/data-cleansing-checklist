@@ -24,5 +24,7 @@ If there are several decimal values for each column and the data is related for 
 
 Depending on the value of the fields, columns may need to be unpivoted and then pivoted. This is to establish an ordered structure to the columns which will assist in creating visuals, later on.
 
+In Power BI, text in a range (i.e. "0-5") cannot be sorted (neither ascending or descending). Therefore to sort by these values they will need to be first extracted either through the buttons "Split Columns" or "Extract", by their delimeter. These values should then be converted to a number.
+
 ## **Contributing**
 This checklist is a work in progress and may not cover all data cleaning scenarios. Please note: The properties a dataset, referenced in the checklist (above), will typically be required across all systems. However, methods to cleanse the data will often be in reference to the Business Intelligence tool: Power BI. These cleaning methods can be performed in other tools/software. If you would like to contribute to this checklist, feel free to fork this repository and submit a pull request with your changes.
