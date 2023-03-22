@@ -7,7 +7,9 @@ If data is unstructured i.e. column names can be found in rows along values, the
 
 Ensure query names are relevant to the data it contains.
 
-Columns must contain appropriate names. If the column names can be found in the first row, then these can be promoted to the Column headers using "Use First Row as Headers" button
+Columns must contain appropriate names. If the column names can be found in the first row, then these can be promoted to the Column headers using "Use First Row as Headers" button.
+
+Duplicate fields should be removed.
 
 If the queries for different data are structured the same and have related data these queries can be combined into one, through appending. Similar query structures can be determined if the column numbers are the same and each column name is identical. Upon merging the queries select a filter for one of the columns to ensure all queries were merged correctly. If they were not, this could be due to different formats for a column. Also, rename the new query.
 
